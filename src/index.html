@@ -1,15 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="we-wial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
-    <link rel="stylesheet" href="./assets/css/style.scss">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="./assets/js/script.js" defer></script>
+    <script src="./assets/js/script.js" type="module" defer></script>
 </head>
+
 <body>
-    
+    <div class="container bg-info d-flex flex-column justify-content-center" style="height: 100vh;">
+        <div class="row bg-dark mb-5 h-25 align-content-center">
+            <div class="col-12 d-flex justify-content-center">
+                <p class="text-white display-1">Lista de alunos</p>
+            </div>
+        </div>
+
+        <div class="tabela row flex-column flex-nowrap h-75 overflow-y-scroll">
+            <div class="linha col-12 d-none justify-content-around bg-light h-auto mb-3  text-center">
+                <div class="nome col-3 bg-dark text-white d-flex flex-column justify-content-center">
+                    <p class="display-6">Nome:</p>
+                    <p class="display-3"></p>
+                </div>
+                <div class="nota col-1 bg-dark text-white d-flex flex-column justify-content-center">
+                    <p class="display-6">Nota 1:</p>
+                    <p class="display-3"></p>
+                </div>
+                <div class="nota col-1 bg-dark text-white d-flex flex-column justify-content-center">
+                    <p class="display-6">Nota 2:</p>
+                    <p class="display-3"></p>
+                </div>
+                <div class="nota col-1 bg-dark text-white d-flex flex-column justify-content-center">
+                    <p class="display-6">Nota 3:</p>
+                    <p class="display-3"></p>
+                </div>
+                <div class="nota col-1 bg-dark text-white d-flex flex-column justify-content-center">
+                    <p class="display-6">Nota 4:</p>
+                    <p class="display-3"></p>
+                </div>
+                <div class="media col-2 bg-dark text-white d-flex flex-column justify-content-center">
+                    <p class="display-6">Nota Final:</p>
+                    <p class="display-3"></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
